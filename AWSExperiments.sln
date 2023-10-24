@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9C6C6D92-D705-4826-B94B-71E80A88B3DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "terraform", "terraform", "{9BEED011-5AEF-48B4-9FC4-015162B2C6D6}"
+	ProjectSection(SolutionItems) = preProject
+		terraform\main.tf = terraform\main.tf
+		terraform\outputs.tf = terraform\outputs.tf
+		terraform\providers.tf = terraform\providers.tf
+		terraform\SimpleLambdaApi.tf = terraform\SimpleLambdaApi.tf
+		terraform\variables.tf = terraform\variables.tf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLambdaApi", "src\SimpleLambdaApi\SimpleLambdaApi.csproj", "{1D5DC179-4E8C-44C3-A77A-CBEF6B701D72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2416865F-1D7A-4A84-9F62-7685F577AF34}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D5DC179-4E8C-44C3-A77A-CBEF6B701D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5DC179-4E8C-44C3-A77A-CBEF6B701D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5DC179-4E8C-44C3-A77A-CBEF6B701D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5DC179-4E8C-44C3-A77A-CBEF6B701D72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D5DC179-4E8C-44C3-A77A-CBEF6B701D72} = {9C6C6D92-D705-4826-B94B-71E80A88B3DC}
+	EndGlobalSection
+EndGlobal
